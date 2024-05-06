@@ -1,5 +1,3 @@
-use semver::Version;
-
 use super::base::asc_get;
 use super::base::asc_new;
 use super::base::AscHeap;

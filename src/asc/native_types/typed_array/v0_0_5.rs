@@ -5,7 +5,6 @@ use crate::asc::native_types::array_buffer;
 use crate::asc::native_types::array_buffer::v0_0_5::ArrayBuffer;
 use crate::errors::AscError;
 use crate::impl_asc_type_struct;
-use semver::Version;
 use std::marker::PhantomData;
 use std::mem::size_of;
 

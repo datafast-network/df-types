@@ -3,7 +3,6 @@ use crate::bignumber::bigdecimal::BigDecimal;
 use crate::bignumber::bigint::BigInt;
 use crate::errors::AscError;
 use crate::impl_asc_type_enum;
-use semver::Version;
 use serde::Deserialize;
 use serde::Serialize;
 use std::fmt;

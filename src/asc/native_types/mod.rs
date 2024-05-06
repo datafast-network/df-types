@@ -10,7 +10,6 @@ pub mod typed_map;
 use json::AscJson;
 use json::JsonValueKind;
 use r#enum::AscEnum;
-use semver::Version;
 use typed_array::TypedArray;
 
 use crate::errors::AscError;

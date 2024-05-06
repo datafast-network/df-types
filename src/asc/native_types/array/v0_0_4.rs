@@ -5,7 +5,6 @@ use crate::asc::base::AscPtr;
 use crate::asc::base::AscValue;
 use crate::asc::native_types::array_buffer;
 use crate::asc::native_types::array_buffer::v0_0_4::ArrayBuffer;
-use semver::Version;
 use std::marker::PhantomData;
 
 #[repr(C)]

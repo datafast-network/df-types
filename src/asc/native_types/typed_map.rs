@@ -7,7 +7,6 @@ use crate::impl_asc_type_struct;
 use crate::asc::base::AscIndexId;
 use crate::asc::base::AscPtr;
 use crate::asc::base::IndexForAscTypeId;
-use semver::Version;
 
 #[repr(C)]
 pub struct AscTypedMapEntry<K, V> {
