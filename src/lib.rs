@@ -5,3 +5,6 @@ pub use hex;
 pub use semver;
 pub use web3;
 pub mod chain;
+
+#[cfg(feature = "ethereum")]
+pub use ethabi;
