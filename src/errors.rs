@@ -1,5 +1,8 @@
 use thiserror::Error;
 
+#[cfg(feature = "wasm")]
+use wasmer::MemoryAccessError;
+
 #[derive(Error, Debug)]
 pub enum BigIntOutOfRangeError {
     #[error("Cannot convert negative BigInt into type")]
@@ -36,4 +39,7 @@ pub enum AscError {
     MaxRecursion,
     #[error(transparent)]
     BigNumberOutOfRange(#[from] BigNumberErr),
+    #[cfg(feature = "wasm")]
+    #[error(transparent)]
+    WasmMemoryAccessError(#[from] MemoryAccessError),
 }
