@@ -43,3 +43,9 @@ pub enum AscError {
     #[error(transparent)]
     WasmMemoryAccessError(#[from] MemoryAccessError),
 }
+
+impl From<AscError> for wasmer::RuntimeError {
+    fn from(e: AscError) -> Self {
+        wasmer::RuntimeError::new(e.to_string())
+    }
+}

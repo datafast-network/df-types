@@ -16,7 +16,6 @@ use crate::bignumber::bigint::BigInt;
 use crate::errors::AscError;
 use crate::impl_asc_type_struct;
 use ethabi::LogParam;
-use semver::Version;
 use web3::types::Address;
 use web3::types::U256;
 

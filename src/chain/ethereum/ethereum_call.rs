@@ -13,7 +13,6 @@ use crate::errors::AscError;
 use crate::impl_asc_type_struct;
 use ethabi::Function;
 use ethabi::Token;
-use semver::Version;
 use web3::types::Address;
 
 #[repr(C)]

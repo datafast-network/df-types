@@ -16,7 +16,6 @@ use crate::chain::ethereum::log::AscLogArray;
 use crate::errors::AscError;
 use crate::impl_asc_type_struct;
 use ethabi::Bytes;
-use semver::Version;
 use web3::types::Log;
 use web3::types::Transaction;
 use web3::types::TransactionReceipt;

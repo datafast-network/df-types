@@ -11,7 +11,6 @@ use crate::asc::base::ToAscObj;
 use crate::bignumber::bigint::BigInt;
 use crate::errors::AscError;
 use crate::impl_asc_type_struct;
-use semver::Version;
 use web3::types::Block;
 use web3::types::H160;
 use web3::types::H256;

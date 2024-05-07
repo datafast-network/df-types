@@ -1,3 +1,4 @@
+use semver::Version;
 use super::asc::*;
 use crate::asc::base::asc_get;
 use crate::asc::base::asc_get_optional;
@@ -17,7 +18,6 @@ use crate::asc::native_types::Uint8Array;
 use crate::bignumber::bigint::BigInt;
 use crate::errors::AscError;
 use crate::impl_asc_type_struct;
-use semver::Version;
 use web3::types::Log;
 use web3::types::H256;
 

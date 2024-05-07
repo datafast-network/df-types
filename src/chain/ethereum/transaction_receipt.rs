@@ -9,7 +9,6 @@ use crate::bignumber::bigint::BigInt;
 use crate::chain::ethereum::log::AscLogArray;
 use crate::errors::AscError;
 use crate::impl_asc_type_struct;
-use semver::Version;
 use web3::types::TransactionReceipt;
 
 #[repr(C)]
